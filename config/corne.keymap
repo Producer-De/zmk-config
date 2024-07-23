@@ -83,7 +83,7 @@
             bindings = <
 &trans  &trans     &kp LC(W)            &kt LC(E)  &kp LC(R)                &mt LC(LS(T)) LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)  &mt RC(RS(RA(F))) LC(F)  &mt LC(LS(G)) G        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans               &trans     &trans                   &trans                 &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)  &kp LC(V)                &mt LC(LA(B)) B        &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans     &trans                   &trans                 &trans  &trans  &trans
             >;
         };
