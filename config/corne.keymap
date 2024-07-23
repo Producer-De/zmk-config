@@ -56,9 +56,9 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&kp LEFT_ALT    &kp F1          &kp UP_ARROW    &kp F3            &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0  &kp STAR       &kp MINUS
+&kp LEFT_ALT    &kp F1          &kp UP_ARROW    &kp F3            &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp SLASH     &kp STAR       &kp MINUS
 &kp GRAVE       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp F9             &kp F10      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp EQUAL     &kp BACKSPACE  &kp PLUS
-&kp LEFT_SHIFT  &kp F11         &kp F12         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp SLASH     &kp DOT        &kp ENTER
+&kp LEFT_SHIFT  &kp F11         &kp F12         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_0  &kp DOT        &kp ENTER
                                                 &kp LCTRL         &trans             &kp SPACE    &kp ENTER     &trans        &kp BACKSPACE
             >;
         };
