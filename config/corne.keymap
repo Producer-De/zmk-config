@@ -66,10 +66,10 @@
 
         layer_3 {
             bindings = <
-&kp ESCAPE      &kp LC(Q)  &kp LC(LS(W))        &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)  &mt LC(LS(U)) LC(U)  &kp LC(I)      &kp LC(O)  &trans  &to 0
-&kp LCTRL       &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &trans     &kp LC(J)            &trans         &trans     &trans  &to 1
-&kp LEFT_SHIFT  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &trans     &trans               &kp LC(COMMA)  &trans     &trans  &to 3
-                                                &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &trans     &mkp RCLK            &trans
+&kp ESCAPE      &kp LC(Q)  &kp LC(LS(W))        &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)  &mt LC(LS(U)) LC(U)  &kp LC(I)      &kp LC(O)       &to 1         &to 0
+&kp LCTRL       &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &to 3      &kp LC(J)            &kp LC(K)      &kp LC(L)       &kp UP_ARROW  &kp DELETE
+&kp LEFT_SHIFT  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &kp LC(N)  &kp LC(LS(M))        &kp LC(COMMA)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+                                                &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER  &mkp RCLK            &kp BACKSPACE
             >;
         };
 
