@@ -42,10 +42,10 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&mt LA(F4) ESCAPE         &kp Q  &kp W  &kp E                    &kp R      &kp T          &kp Y      &kp U      &kp I             &kp O    &kp P                         &to 1
-&mt LCTRL LC(W)           &kp A  &kp S  &kp D                    &lt 1 F    &kp G          &kp H      &lt 2 J    &kp K             &kp L    &mt LC(LA(DELETE)) RIGHT_ALT  &kp ENTER
+&mt LA(F4) ESCAPE         &kp Q  &kp W  &kp E                    &kp R      &kp T          &kp Y      &kp U      &kp I             &kp O    &kp P                         &to 2
+&mt LCTRL LC(W)           &kp A  &kp S  &kp D                    &lt 1 F    &kp G          &kp H      &lt 3 J    &kp K             &kp L    &mt LC(LA(DELETE)) RIGHT_ALT  &kp ENTER
 &mt LEFT_SHIFT LA(RIGHT)  &kp Z  &kp X  &kp C                    &kp V      &kp B          &kp N      &kp M      &mt CAPSLOCK TAB  &kp DOT  &kp DEL                       &mt RIGHT_SHIFT QUESTION
-                                        &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &lt 2 SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
+                                        &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &lt 3 SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
 
@@ -59,8 +59,17 @@
             bindings = <
 &mt LA(F4) ESCAPE  &kp TILDE        &kp SQT         &kp UP_ARROW           &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &kp STAR       &to 0
 &mt LSHFT LS(W)    &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN               &kp RIGHT          &kp F9       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp BACKSPACE  &mt RIGHT_SHIFT COLON
-&to 2              &kp LEFT_WIN     &kp BACKSLASH   &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp F11      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &kp SLASH
+&to 3              &kp LEFT_WIN     &kp BACKSLASH   &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp F11      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &kp SLASH
                                                     &mt LEFT_ALT LA(LEFT)  &mkp LCLK          &kp SPACE    &kp ENTER     &mkp RCLK     &kp NUMBER_0
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans     &kp LC(W)            &kt LC(E)  &kp LC(R)                &mt LC(LS(T)) LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)  &mt RC(RS(RA(F))) LC(F)  &mt LC(LS(G)) G        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)  &kp LC(V)                &mt LC(LA(B)) B        &trans  &trans  &trans  &trans  &trans  &trans
+                                        &trans     &trans                   &trans                 &trans  &trans  &trans
             >;
         };
 
@@ -76,15 +85,6 @@
 &trans            &trans        &trans        &trans        &out OUT_TOG  &trans          &kp C_PREV       &kp C_NEXT       &kp C_PP         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                   &kp K_MUTE
 &bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &rgb_ug RGB_COLOR_HSB(241,0,100)  &kp C_MUTE
                                               &trans        &trans        &trans          &trans           &trans           &trans
-            >;
-        };
-
-        layer_3 {
-            bindings = <
-&trans  &trans     &kp LC(W)            &kt LC(E)  &kp LC(R)                &mt LC(LS(T)) LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)  &mt RC(RS(RA(F))) LC(F)  &mt LC(LS(G)) G        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)  &kp LC(V)                &mt LC(LA(B)) B        &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans     &trans                   &trans                 &trans  &trans  &trans
             >;
         };
     };
