@@ -41,9 +41,9 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y      &kp U      &kp I          &kp O    &kp P          &kp DELETE
-&kp LCTRL       &kp A  &kp S  &kp D     &kp F      &kp G        &kp H      &kp J      &kp K          &kp L    &kp RIGHT_ALT  &kp ENTER
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N      &kp M      &kp DOT        &kp TAB  &to 0          &sl 1
+&kp ESC         &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y      &kp U      &kp I          &kp O    &kp P            &kp DELETE
+&kp LCTRL       &kp A  &kp S  &kp D     &kp F      &kp G        &kp H      &kp J      &kp K          &kp L    &kp RIGHT_ALT    &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N      &kp M      &kp DOT        &kp TAB  &mt RSHFT SLASH  &to 1
                               &kp LALT  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
@@ -56,10 +56,10 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&kp LEFT_ALT    &kp F1          &kp UP_ARROW    &kp F3            &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp SLASH     &kp STAR       &kp MINUS
-&kp GRAVE       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp F9             &kp F10      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp EQUAL     &kp BACKSPACE  &kp PLUS
-&kp LEFT_SHIFT  &kp F11         &kp F12         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_0  &kp DOT        &kp ENTER
-                                                &kp LCTRL         &trans             &kp SPACE    &kp ENTER     &trans        &kp BACKSPACE
+&kp ESC    &kp GRAVE        &kp SQT         &kp UP_ARROW      &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &kp STAR       &kp BACKSLASH
+&kp LSHFT  &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN          &kp RIGHT          &kp F9       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp BACKSPACE  &kp SEMICOLON
+&to 2      &kp LEFT_WIN     &kp SLASH       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp F11      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &to 0
+                                            &kp LEFT_ALT      &mkp LCLK          &kp SPACE    &kp ENTER     &mkp RCLK     &kp NUMBER_0
             >;
         };
 
