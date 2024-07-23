@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -40,10 +41,10 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E     &kp R   &kp T        &kp Y      &kp U   &kp I          &kp O    &kp P      &kp RIGHT_ALT
-&kp LCTRL       &kp A  &kp S  &kp D     &kp F   &kp G        &kp H      &kp J   &kp K          &kp L    &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V   &kp B        &kp N      &kp M   &kp COMMA      &kp DOT  &kp SLASH  &kp LEFT_ALT
-                              &kp LGUI  &tog 1  &kp SPACE    &kp ENTER  &tog 2  &kp BACKSPACE
+&kp ESC         &kp Q  &kp W  &kp E     &kp R      &kp T        &kp Y      &kp U             &kp I          &kp O    &kp P    &kp DELETE
+&mkp RCLK       &kp A  &kp S  &kp D     &kp F      &kp G        &kp H      &kp J             &kp K          &kp L    &kp TAB  &kp ENTER
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V      &kp B        &kp N      &kp M             &mo 1          &kp DOT  &mo 1    &mo 2
+                              &kp LALT  &mkp LCLK  &kp SPACE    &kp SPACE  &kp LEFT_CONTROL  &kp BACKSPACE
             >;
         };
 
