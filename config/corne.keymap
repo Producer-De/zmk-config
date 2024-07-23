@@ -40,10 +40,10 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp E     &kp R   &kp T        &kp Y      &kp U   &kp I          &kp O    &kp P      &kp DELETE
+&kp ESC         &kp Q  &kp W  &kp E     &kp R   &kp T        &kp Y      &kp U   &kp I          &kp O    &kp P      &kp RIGHT_ALT
 &kp LCTRL       &kp A  &kp S  &kp D     &kp F   &kp G        &kp H      &kp J   &kp K          &kp L    &kp SEMI   &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V   &kp B        &kp N      &kp M   &kp COMMA      &kp DOT  &kp SLASH  &kp RIGHT_SHIFT
-                              &kp LGUI  &tog 1  &kp ENTER    &kp SPACE  &tog 2  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V   &kp B        &kp N      &kp M   &kp COMMA      &kp DOT  &kp SLASH  &kp LEFT_ALT
+                              &kp LGUI  &tog 1  &kp SPACE    &kp ENTER  &tog 2  &kp BACKSPACE
             >;
         };
 
@@ -55,10 +55,10 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&kp LEFT_ALT    &kp F1   &kp F2   &kp F3            &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp SLASH     &kp STAR       &kp MINUS
-&kp GRAVE       &kp F6   &kp F7   &kp F8            &kp F9             &kp F10      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp EQUAL     &kp BACKSPACE  &kp PLUS
-&kp LEFT_SHIFT  &kp F11  &kp F12  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_0  &kp DOT        &kp ENTER
-                                  &kp LCTRL         &trans             &kp ENTER    &kp RCTRL     &trans        &kp RIGHT_ALT
+&kp LEFT_ALT    &kp F1          &kp UP_ARROW    &kp F3            &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0  &kp STAR       &kp MINUS
+&kp GRAVE       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp F9             &kp F10      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp EQUAL     &kp BACKSPACE  &kp PLUS
+&kp LEFT_SHIFT  &kp F11         &kp F12         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp SLASH     &kp DOT        &kp ENTER
+                                                &kp LCTRL         &trans             &kp SPACE    &kp ENTER     &trans        &kp BACKSPACE
             >;
         };
 
