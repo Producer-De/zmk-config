@@ -66,10 +66,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans     &kp LC(W)            &kt LC(E)  &kp LC(R)                &mt LC(LS(T)) LC(T)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)  &mt RC(RS(RA(F))) LC(F)  &mt LC(LS(G)) G        &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)  &kp LC(V)                &mt LC(LA(B)) B        &trans  &trans  &trans  &trans  &trans  &trans
-                                        &trans     &trans                   &trans                 &trans  &trans  &trans
+&kp ESCAPE      &kp LC(Q)  &kp LC(LS(W))        &kt LC(E)     &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &trans  &mt LC(LS(U)) LC(U)  &trans         &trans  &trans  &to 0
+&kp LCTRL       &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)     &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &trans  &trans               &trans         &trans  &trans  &to 1
+&kp LEFT_SHIFT  &kt LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)     &kp LC(V)                &mt LC(LA(B)) B        &trans  &trans               &kp LC(COMMA)  &trans  &trans  &to 3
+                                                &kp LEFT_ALT  &mkp LCLK                &kp SPACE              &trans  &mkp RCLK            &trans
             >;
         };
 
