@@ -56,10 +56,10 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&mt LA(F4) ESCAPE  &kp TILDE        &kp SQT         &kp UP_ARROW           &kp F4             &kp F5       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS           &kp STAR                &to 0
-&mt LCTRL LC(W)    &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN               &kp RIGHT          &kp F9       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &kp BACKSPACE           &mt RIGHT_SHIFT COLON
-&to 2              &lt 3 LEFT_WIN   &kp BACKSLASH   &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp F11      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt LESS_THAN DOT  &mt GREATER_THAN COMMA  &kp SLASH
-                                                    &mt LEFT_ALT LA(LEFT)  &mkp LCLK          &kp SPACE    &kp ENTER     &mkp RCLK     &kp NUMBER_0
+&mt LA(F4) ESCAPE  &kp TILDE        &kp SQT         &kp UP_ARROW           &kp F4             &kp F5       &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp PLUS           &kp STAR                &to 0
+&mt LCTRL LC(W)    &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN               &kp RIGHT          &lt 0 F9     &lt 2 NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &kp BACKSPACE           &mt RIGHT_SHIFT COLON
+&to 2              &lt 3 LEFT_WIN   &kp BACKSLASH   &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp F11      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &mt LESS_THAN DOT  &mt GREATER_THAN COMMA  &kp SLASH
+                                                    &mt LEFT_ALT LA(LEFT)  &mkp LCLK          &kp SPACE    &kp ENTER       &mkp RCLK     &kp NUMBER_0
             >;
         };
 
