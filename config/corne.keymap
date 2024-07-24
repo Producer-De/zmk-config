@@ -66,7 +66,7 @@
         ABLETON {
             bindings = <
 &kp ESCAPE      &kp LC(Q)    &kp LC(LS(W))        &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)  &mt LC(LS(U)) LC(U)  &kp LC(I)      &kp LC(O)       &to 1         &to 0
-&kp LCTRL       &kp LC(A)    &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &to 3      &kp LC(J)            &kp LC(K)      &kp LC(L)       &kp UP_ARROW  &kp DELETE
+&kp LCTRL       &kp LC(A)    &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &mkp MCLK  &kp LC(J)            &kp LC(K)      &kp LC(L)       &kp UP_ARROW  &kp DELETE
 &kp LEFT_SHIFT  &lt 3 LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &kp LC(N)  &kp LC(LS(M))        &kp LC(COMMA)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
                                                   &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER  &mkp RCLK            &kp BACKSPACE
             >;
@@ -80,10 +80,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&ext_power EP_ON  &trans        &trans        &trans        &trans        &trans          &kp INS          &kp HOME         &kp DELETE       &kp K_BACK         &kp END                           &ext_power EP_OFF
-&trans            &trans        &trans        &trans        &out OUT_TOG  &trans          &kp C_PREV       &kp C_NEXT       &kp C_PP         &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                   &kp K_MUTE
-&bt BT_CLR        &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &rgb_ug RGB_COLOR_HSB(241,0,100)  &kp C_MUTE
-                                              &trans        &trans        &trans          &trans           &trans           &trans
+&to 0       &to 1         &to 2         &bt BT_CLR_ALL  &bt BT_NXT    &ext_power EP_ON     &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
+&bt BT_PRV  &trans        &trans        &trans          &out OUT_TOG  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp K_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
+                                        &trans          &trans        &trans               &trans           &trans           &trans
             >;
         };
     };
