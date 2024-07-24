@@ -41,10 +41,10 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&mt LA(F4) ESCAPE         &kp Q    &kp W  &kp E                    &mt NUMBER_1 R  &kp T        &kp Y      &kp U      &kp I             &lt 2 O        &kp P                         &to 2
-&mt LCTRL LC(W)           &kp A    &kp S  &kp D                    &kp F           &kp G        &kp H      &kp J      &kp K             &kp L          &mt LC(LA(DELETE)) RIGHT_ALT  &kp ENTER
-&mt LEFT_SHIFT LA(RIGHT)  &lt 3 Z  &kp X  &kp C                    &kp V           &kp B        &kp N      &kp M      &mt CAPSLOCK TAB  &mt COMMA DOT  &to 1                         &mt RIGHT_SHIFT QUESTION
-                                          &mt LALT LA(LEFT_ARROW)  &mkp LCLK       &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
+&mt LA(F4) ESCAPE         &kp Q    &kp W  &kp E                    &lt 1 R    &kp T        &kp Y      &kp U      &kp I             &lt 2 O        &kp P                         &to 2
+&mt LCTRL LC(W)           &kp A    &kp S  &kp D                    &kp F      &kp G        &kp H      &kp J      &kp K             &kp L          &mt LC(LA(DELETE)) RIGHT_ALT  &kp ENTER
+&mt LEFT_SHIFT LA(RIGHT)  &lt 3 Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &mt CAPSLOCK TAB  &mt COMMA DOT  &to 1                         &mt RIGHT_SHIFT QUESTION
+                                          &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
 
