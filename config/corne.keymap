@@ -57,7 +57,7 @@
 
             bindings = <
 &mt LA(F4) ESCAPE  &kp TILDE        &kp SQT         &kp UP_ARROW           &kp F4             &kp F5       &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp PLUS           &to 2                   &to 0
-&mt LCTRL LC(W)    &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN               &kp RIGHT          &lt 0 F9     &lt 2 NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS          &kp BACKSPACE           &mt RIGHT_SHIFT COLON
+&mt LCTRL LC(W)    &kp PRINTSCREEN  &kp LEFT_ARROW  &kp DOWN               &lt 0 RIGHT        &lt 0 F9     &lt 2 NUMBER_4  &lt 2 N5      &kp NUMBER_6  &kp MINUS          &kp BACKSPACE           &mt RIGHT_SHIFT COLON
 &kp STAR           &lt 3 LEFT_WIN   &kp BACKSLASH   &kp LEFT_BRACKET       &kp RIGHT_BRACKET  &kp F11      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &mt LESS_THAN DOT  &mt GREATER_THAN COMMA  &kp SLASH
                                                     &mt LEFT_ALT LA(LEFT)  &mkp LCLK          &kp SPACE    &kp ENTER       &mkp RCLK     &kp NUMBER_0
             >;
@@ -65,10 +65,10 @@
 
         ABLETON {
             bindings = <
-&kp ESCAPE      &kp LC(Q)    &kp LC(LS(W))        &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)  &mt LC(LS(U)) LC(U)  &kp LC(I)      &kp LC(O)       &to 1         &to 0
-&kp LCTRL       &kp LC(A)    &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &to 3      &kp LC(J)            &kp LC(K)      &kp LC(L)       &kp UP_ARROW  &kp DELETE
-&kp LEFT_SHIFT  &lt 3 LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &kp LC(N)  &kp LC(LS(M))        &kp LC(COMMA)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
-                                                  &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER  &mkp RCLK            &kp BACKSPACE
+&kp ESCAPE      &kp LC(Q)    &kp LC(LS(W))        &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)   &mt LC(LS(U)) LC(U)  &kp LC(I)      &kp LC(O)       &to 1         &to 0
+&kp LCTRL       &kp LC(A)    &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &kp DELETE  &kp LC(J)            &kp LC(K)      &kp LC(L)       &kp UP_ARROW  &to 3
+&kp LEFT_SHIFT  &lt 3 LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &kp LC(N)   &kp LC(LS(M))        &kp LC(COMMA)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+                                                  &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER   &mkp RCLK            &kp BACKSPACE
             >;
         };
 
@@ -83,7 +83,7 @@
 &to 0       &to 1   &to 2         &bt BT_CLR_ALL  &bt BT_NXT    &ext_power EP_ON     &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
 &bt BT_PRV  &trans  &bt BT_SEL 0  &trans          &out OUT_TOG  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp K_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
 &bt BT_CLR  &trans  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
-                                  &trans          &trans        &trans               &trans           &trans           &trans
+                                  &trans          &mkp LCLK     &trans               &trans           &mkp MB2         &trans
             >;
         };
     };
