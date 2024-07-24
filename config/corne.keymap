@@ -56,10 +56,10 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&mt LA(F4) ESCAPE         &kp TILDE       &kp SQT         &kp UP_ARROW                &kp F4                          &kp F5       &kp NUMBER_7    &kp NUMBER_8  &kp N9        &kp EQUAL  &to 2          &to 0
-&mt LEFT_SHIFT LA(RIGHT)  &kp STAR        &kp LEFT_ARROW  &kp DOWN                    &kp RIGHT                       &kp F9       &lt 2 NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp BACKSPACE  &kp SEMICOLON
-&kp DELETE                &lt 3 LEFT_WIN  &kp BACKSLASH   &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F11      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &kp SLASH
-                                                          &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER       &mkp RCLK     &kp NUMBER_0
+&mt LA(F4) ESCAPE         &kp TILDE     &kp SQT          &kp UP_ARROW                &kp F4                          &kp F5       &kp NUMBER_7    &kp NUMBER_8  &kp N9        &kp EQUAL  &to 2          &to 0
+&mt LEFT_SHIFT LA(RIGHT)  &kp STAR      &kp LEFT_ARROW   &kp DOWN                    &kp RIGHT                       &kp F9       &lt 2 NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp BACKSPACE  &kp SEMICOLON
+&mo 0                     &kp LEFT_WIN  &lt 3 BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F11      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &kp SLASH
+                                                         &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER       &mkp RCLK     &kp NUMBER_0
             >;
         };
 
