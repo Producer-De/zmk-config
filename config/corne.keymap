@@ -37,7 +37,7 @@
             bindings = <
 &mt LA(F4) ESCAPE              &kp Q    &kp W  &kp E                  &lt 1 R    &kp T        &kp Y      &kp U      &kp I          &lt 2 O        &kp P                         &to 2
 &mt LCTRL LC(W)                &kp A    &kp S  &kp D                  &kp F      &kp G        &kp H      &kp J      &kp K          &kp L          &mt LC(LA(DELETE)) RIGHT_ALT  &kp ENTER
-&mt LEFT_SHIFT LA(LEFT_ARROW)  &lt 3 Z  &kp X  &kp C                  &kp V      &kp B        &kp N      &kp M      &mt CAPS TAB   &mt COMMA DOT  &to 1                         &mt RIGHT_SHIFT QUESTION
+&mt LEFT_SHIFT LA(LEFT_ARROW)  &lt 4 Z  &kp X  &kp C                  &kp V      &kp B        &kp N      &kp M      &mt CAPS TAB   &mt COMMA DOT  &to 1                         &mt RIGHT_SHIFT QUESTION
                                                &mt LEFT_ALT LA(LEFT)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
@@ -50,10 +50,10 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&mt LA(F4) ESCAPE         &kp TILDE     &kp SQT          &kp UP_ARROW                &kp F4                          &kp F5       &kp NUMBER_7    &kp NUMBER_8  &kp N9        &kp EQUAL  &to 2          &to 0
-&mt LEFT_SHIFT LA(RIGHT)  &kp STAR      &kp LEFT_ARROW   &kp DOWN                    &kp RIGHT                       &kp F9       &lt 2 NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp BACKSPACE  &kp SEMICOLON
-&mo 0                     &kp LEFT_WIN  &lt 3 BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F11      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &kp SLASH
-                                                         &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER       &mkp RCLK     &kp NUMBER_0
+&mt LA(F4) ESCAPE         &kp TILDE     &kp SQT         &kp UP_ARROW                &kp F4                          &kp F5       &kp NUMBER_7    &kp NUMBER_8  &kp N9        &kp EQUAL  &to 2          &to 0
+&mt LEFT_SHIFT LA(RIGHT)  &kp STAR      &kp LEFT_ARROW  &kp DOWN                    &kp RIGHT                       &kp F9       &lt 3 NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS  &kp BACKSPACE  &kp SEMICOLON
+&mo 4                     &kp LEFT_WIN  &kp BACKSLASH   &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F11      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp DOT    &kp COMMA      &kp SLASH
+                                                        &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER       &mkp RCLK     &kp NUMBER_0
             >;
         };
 
@@ -61,7 +61,7 @@
             bindings = <
 &kp ESCAPE      &kp LC(Q)    &kp LC(LS(W))        &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)            &mt LC(LS(U)) LC(U)  &kp LC(I)      &trans          &to 1         &to 0
 &kp LCTRL       &kp LC(A)    &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &kp DELETE           &kp LC(J)            &kp LC(K)      &kp LC(L)       &kp UP_ARROW  &to 3
-&kp LEFT_SHIFT  &lt 3 LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &kp LC(LS(M))        &kp LC(COMMA)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+&kp LEFT_SHIFT  &lt 4 LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &kp LC(LS(M))        &kp LC(COMMA)  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
                                                   &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER            &mkp RCLK            &kp BACKSPACE
             >;
         };
@@ -89,9 +89,9 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&mt LA(F4) ESCAPE         &kp Q    &kp W  &kp E                    &lt 1 R    &kp T        &kp Y      &kp U      &kp I             &lt 2 O        &kp P                         &to 2
+&mt LA(F4) ESCAPE         &kp Q    &kp W  &kp E                    &lt 1 R    &kp T        &kp Y      &kp U      &kp I             &lt 3 O        &kp P                         &to 3
 &mt LCTRL LC(W)           &kp A    &kp S  &kp D                    &kp F      &kp G        &kp H      &kp J      &kp K             &kp L          &mt LC(LA(DELETE)) RIGHT_ALT  &kp ENTER
-&mt LEFT_SHIFT LA(RIGHT)  &lt 3 Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &mt CAPSLOCK TAB  &mt COMMA DOT  &to 1                         &mt RIGHT_SHIFT QUESTION
+&mt LEFT_SHIFT LA(RIGHT)  &lt 4 Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &mt CAPSLOCK TAB  &mt COMMA DOT  &to 1                         &mt RIGHT_SHIFT QUESTION
                                           &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
