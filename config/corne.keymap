@@ -74,10 +74,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&to 0       &to 1   &to 2         &bt BT_CLR_ALL  &bt BT_NXT    &ext_power EP_ON     &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
-&bt BT_PRV  &trans  &bt BT_SEL 0  &trans          &out OUT_TOG  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
-&bt BT_CLR  &trans  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
-                                  &trans          &mkp LCLK     &trans               &trans           &mkp MB2         &trans
+&to 0       &to 1         &to 2         &bt BT_CLR_ALL  &bt BT_NXT    &ext_power EP_ON     &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
+&bt BT_PRV  &trans        &bt BT_SEL 0  &trans          &out OUT_TOG  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
+                                        &trans          &mkp LCLK     &trans               &trans           &mkp MB2         &trans
             >;
         };
 
