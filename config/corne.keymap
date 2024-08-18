@@ -36,7 +36,7 @@
         layer_4 {
             bindings = <
 &mt LA(F4) ESCAPE               &kp Q  &kp W  &kp E                  &lt 1 R    &kp T        &kp Y      &kp U      &kp I          &lt 2 O        &kp P          &to 2
-&mt LCTRL LC(W)                 &kp A  &kp S  &kp D                  &kp F      &kp G        &kp H      &kp J      &kp K          &kp L          &kp RIGHT_ALT  &kp ENTER
+&kp LCTRL                       &kp A  &kp S  &kp D                  &kp F      &kp G        &kp H      &kp J      &kp K          &kp L          &kp RIGHT_ALT  &kp ENTER
 &mt LEFT_SHIFT LA(RIGHT_ARROW)  &kp Z  &kp X  &kp C                  &kp V      &kp B        &kp N      &kp M      &mt CAPS TAB   &mt COMMA DOT  &to 1          &mt RIGHT_SHIFT QUESTION
                                               &mt LEFT_ALT LA(LEFT)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
