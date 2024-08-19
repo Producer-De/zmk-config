@@ -89,9 +89,9 @@
             //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
 
             bindings = <
-&mt LA(F4) ESCAPE         &kp Q  &kp W  &kp E                    &lt 1 R    &kp T        &kp Y      &kp U      &kp I             &lt 3 O        &kp P          &to 3
-&mt LCTRL LC(W)           &kp A  &kp S  &kp D                    &kp F      &kp G        &kp H      &kp J      &kp K             &kp L          &kp RIGHT_ALT  &kp ENTER
-&mt LEFT_SHIFT LA(RIGHT)  &kp Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &mt CAPSLOCK TAB  &mt COMMA DOT  &to 1          &mt RIGHT_SHIFT QUESTION
+&mt LA(F4) ESCAPE         &kp Q  &kp W  &kp E                    &lt 1 R    &kp T        &kp Y      &kp U      &kp I             &lt 3 O  &kp P          &to 3
+&kp LCTRL                 &kp A  &kp S  &kp D                    &kp F      &kp G        &kp H      &kp J      &kp K             &kp L    &kp RIGHT_ALT  &kp ENTER
+&mt LEFT_SHIFT LA(RIGHT)  &kp Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &mt CAPSLOCK TAB  &kp DOT  &to 1          &mt RIGHT_SHIFT QUESTION
                                         &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
