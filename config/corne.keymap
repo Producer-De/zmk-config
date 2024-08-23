@@ -52,7 +52,7 @@
             bindings = <
 &mt LCTRL ESCAPE          &kp TILDE     &mt LC(W) APOSTROPHE          &kp UP_ARROW                &kp DOT                         &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &to 2            &to 0
 &mt LEFT_SHIFT LA(RIGHT)  &kp STAR      &kp LEFT_ARROW                &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp BACKSPACE    &mt LCTRL SEMICOLON
-&mo 4                     &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &lt 3 SLASH
+&mo 4                     &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &lt 2 SLASH
                                                                       &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER        &mkp RCLK        &mt F11 N0
             >;
         };
@@ -61,7 +61,7 @@
             bindings = <
 &kp ESCAPE      &kp TAB    &mt LC(LS(W)) LC(W)  &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &kp LC(Y)            &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))   &to 1         &to 0
 &kp LCTRL       &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &kp DELETE           &kp LC(J)            &kp LC(K)                 &kp LC(L)       &kp UP_ARROW  &lt 4 LC(LA(P))
-&kp LEFT_SHIFT  &kp LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp LC(COMMA)             &kp LEFT_ARROW  &kp DOWN      &lt 3 RIGHT
+&kp LEFT_SHIFT  &kp LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp LC(COMMA)             &kp LEFT_ARROW  &kp DOWN      &lt 1 RIGHT
                                                 &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER            &mkp RCLK            &kp BACKSPACE
             >;
         };
