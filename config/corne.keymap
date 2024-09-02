@@ -50,7 +50,7 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&mt LCTRL ESCAPE          &kp TILDE     &kp APOSTROPHE                &kp UP_ARROW                &kp DOT                         &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &to 2            &to 0
+&mt LCTRL ESCAPE          &kp TILDE     &kp APOSTROPHE                &kp UP_ARROW                &trans                          &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &to 2            &to 0
 &mt LEFT_SHIFT LA(RIGHT)  &kp STAR      &kp LEFT_ARROW                &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp BACKSPACE    &mt LCTRL SEMICOLON
 &mo 4                     &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &lt 2 SLASH
                                                                       &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER        &mkp RCLK        &mt F11 N0
