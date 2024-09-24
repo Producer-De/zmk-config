@@ -30,6 +30,20 @@
 
     chosen { zmk,underglow = &led_strip; };
 
+    combos {
+        compatible = "zmk,combos";
+
+        deviceon {
+            bindings = <&ext_power EP_ON>;
+            key-positions = <0 1 2>;
+        };
+
+        deviceoff {
+            bindings = <&ext_power EP_OFF>;
+            key-positions = <11 10 9>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
