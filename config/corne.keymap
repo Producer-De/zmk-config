@@ -49,9 +49,9 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE                      &kp Q  &kp W  &kp E                  &lt 1 R    &kp T        &kp Y      &kp U      &kp I          &lt 2 O    &kp P          &to 2
-&mt LCTRL LA(TAB)               &kp A  &kp S  &kp D                  &kp F      &kp G        &kp H      &kp J      &kp K          &kp L      &kp SPACE      &kp ENTER
-&mt LEFT_SHIFT LA(RIGHT_ARROW)  &kp Z  &kp X  &kp C                  &kp V      &kp B        &kp N      &kp M      &kp BACKSPACE  &mkp RCLK  &kp RIGHT_ALT  &mt RIGHT_SHIFT QUESTION
+&kp ESCAPE                      &kp Q  &kp W  &kp E                  &lt 1 R    &kp T        &kp Y      &kp U      &kp I           &lt 2 O     &kp P          &to 2
+&mt LCTRL LA(TAB)               &kp A  &kp S  &kp D                  &kp F      &kp G        &kp H      &kp J      &kp K           &kp L       &kp RIGHT_ALT  &kp ENTER
+&mt LEFT_SHIFT LA(RIGHT_ARROW)  &kp Z  &kp X  &kp C                  &kp V      &kp B        &kp N      &kp M      &mt DELETE TAB  &kp PERIOD  &to 1          &mt RIGHT_SHIFT QUESTION
                                               &mt LEFT_ALT LA(LEFT)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
             >;
         };
@@ -75,7 +75,7 @@
             bindings = <
 &mkp MB3            &kp TAB    &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))  &mkp RCLK     &to 0
 &mt LCTRL CAPSLOCK  &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &mt H DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)      &kp UP_ARROW  &lt 4 LC(LA(P))
-&kp LEFT_SHIFT      &kp LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp BACKSPACE             &lt 3 LEFT     &kp DOWN      &lt 5 RIGHT
+&kp LEFT_SHIFT      &kp LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp LC(COMMA)             &lt 3 LEFT     &kp DOWN      &lt 5 RIGHT
                                                     &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER            &mkp RCLK            &kp BACKSPACE
             >;
         };
