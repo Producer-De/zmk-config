@@ -49,10 +49,10 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE                      &kp Q  &kp W  &kp E                  &lt 1 R    &kp T        &kp Y      &kp U      &kp I           &lt 2 O     &kp P          &to 2
-&mt LCTRL LA(TAB)               &kp A  &kp S  &kp D                  &kp F      &kp G        &kp H      &kp J      &kp K           &kp L       &kp RIGHT_ALT  &kp ENTER
-&mt LEFT_SHIFT LA(RIGHT_ARROW)  &kp Z  &kp X  &kp C                  &kp V      &kp B        &kp N      &kp M      &mt DELETE TAB  &kp PERIOD  &to 1          &mt RIGHT_SHIFT QUESTION
-                                              &mt LEFT_ALT LA(LEFT)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
+&kp ESCAPE                      &kp Q  &kp W  &kp E      &lt 1 R    &kp T        &kp Y      &kp U                        &kp I           &lt 2 O     &kp P          &to 2
+&mt LCTRL LA(TAB)               &kp A  &kp S  &kp D      &kp F      &kp G        &kp H      &kp J                        &kp K           &kp L       &kp RIGHT_ALT  &kp ENTER
+&mt LEFT_SHIFT LA(RIGHT_ARROW)  &kp Z  &kp X  &kp C      &kp V      &kp B        &kp N      &kp M                        &mt TAB DELETE  &kp PERIOD  &to 1          &mt RIGHT_SHIFT QUESTION
+                                              &mkp RCLK  &mkp LCLK  &kp SPACE    &kp SPACE  &mt LEFT_ALT LA(LEFT_ARROW)  &kp BACKSPACE
             >;
         };
 
