@@ -42,6 +42,11 @@
             bindings = <&ext_power EP_OFF>;
             key-positions = <11 10 9>;
         };
+
+        ee {
+            bindings = <&ext_power EP_OFF>;
+            key-positions = <24 25 26>;
+        };
     };
 
     keymap {
