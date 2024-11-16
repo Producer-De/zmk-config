@@ -67,6 +67,26 @@
             bindings = <&bt BT_SEL 0>;
             key-positions = <24 25>;
         };
+
+        BT2 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <24 26>;
+        };
+
+        BT3 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <24 27>;
+        };
+
+        BT4 {
+            bindings = <&bt BT_SEL 3>;
+            key-positions = <24 28>;
+        };
+
+        BT5 {
+            bindings = <&bt BT_SEL 4>;
+            key-positions = <24 29>;
+        };
     };
 
     keymap {
