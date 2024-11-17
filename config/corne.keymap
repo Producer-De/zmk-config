@@ -87,6 +87,16 @@
             bindings = <&bt BT_SEL 4>;
             key-positions = <24 29>;
         };
+
+        back {
+            bindings = <&kp LA(LEFT)>;
+            key-positions = <0 37>;
+        };
+
+        delete {
+            bindings = <&kp DELETE>;
+            key-positions = <0 36>;
+        };
     };
 
     keymap {
