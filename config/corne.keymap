@@ -53,8 +53,8 @@
             key-positions = <12 38>;
         };
 
-        left_alt {
-            bindings = <&kp LEFT_ALT>;
+        left_alt+back {
+            bindings = <&mt LEFT_ALT LA(LEFT_ARROW)>;
             key-positions = <12 36>;
         };
 
@@ -88,14 +88,24 @@
             key-positions = <24 29>;
         };
 
-        back {
-            bindings = <&kp LA(LEFT)>;
+        tab {
+            bindings = <&kp TAB>;
             key-positions = <0 37>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <0 36>;
+        };
+
+        caps_lock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <0 38>;
+        };
+
+        ctrl_shift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <24 37>;
         };
     };
 
