@@ -113,6 +113,56 @@
             bindings = <&mkp MB3>;
             key-positions = <37 16>;
         };
+
+        ctrl1 {
+            bindings = <&kp LC(NUMBER_1)>;
+            key-positions = <12 1>;
+        };
+
+        ctrl2 {
+            bindings = <&kp LC(NUMBER_2)>;
+            key-positions = <12 2>;
+        };
+
+        ctrl3 {
+            bindings = <&kp LC(NUMBER_3)>;
+            key-positions = <12 3>;
+        };
+
+        ctrl4 {
+            bindings = <&kp LC(NUMBER_4)>;
+            key-positions = <12 4>;
+        };
+
+        ctrl5 {
+            bindings = <&kp LC(N5)>;
+            key-positions = <12 5>;
+        };
+
+        ctrl6 {
+            bindings = <&kp LC(NUMBER_6)>;
+            key-positions = <6 23>;
+        };
+
+        ctrl7 {
+            bindings = <&kp LC(N7)>;
+            key-positions = <7 23>;
+        };
+
+        ctrl8 {
+            bindings = <&kp LC(N8)>;
+            key-positions = <23 8>;
+        };
+
+        ctrl9 {
+            bindings = <&kp LC(N9)>;
+            key-positions = <9 23>;
+        };
+
+        ctrl10 {
+            bindings = <&kp LC(F10)>;
+            key-positions = <10 23>;
+        };
     };
 
     keymap {
