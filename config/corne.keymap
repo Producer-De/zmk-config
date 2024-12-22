@@ -116,52 +116,52 @@
 
         ctrl1 {
             bindings = <&kp LC(NUMBER_1)>;
-            key-positions = <12 1>;
+            key-positions = <1 36>;
         };
 
         ctrl2 {
             bindings = <&kp LC(NUMBER_2)>;
-            key-positions = <12 2>;
+            key-positions = <2 36>;
         };
 
         ctrl3 {
             bindings = <&kp LC(NUMBER_3)>;
-            key-positions = <12 3>;
+            key-positions = <3 36>;
         };
 
         ctrl4 {
             bindings = <&kp LC(NUMBER_4)>;
-            key-positions = <12 4>;
+            key-positions = <4 36>;
         };
 
         ctrl5 {
             bindings = <&kp LC(N5)>;
-            key-positions = <12 5>;
+            key-positions = <5 36>;
         };
 
         ctrl6 {
             bindings = <&kp LC(NUMBER_6)>;
-            key-positions = <6 23>;
+            key-positions = <6 41>;
         };
 
         ctrl7 {
             bindings = <&kp LC(N7)>;
-            key-positions = <7 23>;
+            key-positions = <7 41>;
         };
 
         ctrl8 {
             bindings = <&kp LC(N8)>;
-            key-positions = <23 8>;
+            key-positions = <8 41>;
         };
 
         ctrl9 {
             bindings = <&kp LC(N9)>;
-            key-positions = <9 23>;
+            key-positions = <9 41>;
         };
 
         ctrl10 {
             bindings = <&kp LC(F10)>;
-            key-positions = <10 23>;
+            key-positions = <10 41>;
         };
     };
 
