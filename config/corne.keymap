@@ -12,6 +12,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip { chain-length = <42>; };
@@ -194,10 +195,10 @@
 
         ABLETON {
             bindings = <
-&mkp MB3            &kp TAB    &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))  &mkp RCLK     &to 0
-&mt LCTRL CAPSLOCK  &kp LC(A)  &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &mt H DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)      &kp UP_ARROW  &lt 4 LC(LA(P))
-&kp LEFT_SHIFT      &kp LC(Z)  &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp LC(COMMA)             &lt 3 LEFT     &kp DOWN      &lt 5 RIGHT
-                                                    &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER            &mkp RCLK            &kp BACKSPACE
+&mkp MB3            &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))  &mkp RCLK     &to 0
+&mt LCTRL CAPSLOCK  &kp LC(A)     &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &mt H DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)      &kp UP_ARROW  &lt 4 LC(LA(P))
+&kp LEFT_SHIFT      &kp LC(Z)     &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp LC(COMMA)             &lt 3 LEFT     &kp DOWN      &lt 5 RIGHT
+                                                       &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER            &mkp RCLK            &kp BACKSPACE
             >;
         };
 
