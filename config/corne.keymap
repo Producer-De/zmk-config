@@ -171,10 +171,10 @@
 
         layer_4 {
             bindings = <
-&mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &lt 2 O     &kp P                   &to 2
-&mt LCTRL LA(TAB)      &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L       &mt LEFT_ALT RIGHT_ALT  &mt LCTRL ENTER
-&mt LEFT_SHIFT DELETE  &kp Z            &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &mt CAPSLOCK DELETE     &kp PERIOD  &to 1                   &mt RIGHT_SHIFT QUESTION
-                                                            &mkp MB2            &mkp MB1            &kp SPACE             &kp SPACE           &mt LEFT_WIN TAB        &kp BACKSPACE
+&mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &mt LS(LA(LEFT_WIN)) O  &mt LC(LA(LEFT_WIN)) P  &mt LS(LC(LA(LEFT_WIN))) A
+&mt LCTRL RIGHT_ALT    &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &mt LEFT_ALT RIGHT_ALT  &lt 5 BACKSPACE
+&mt LEFT_SHIFT DELETE  &kp Z            &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &mt CAPSLOCK LA(TAB)    &kp PERIOD              &to 1                   &mt RIGHT_SHIFT QUESTION
+                                                            &mkp MB2            &mkp MB1            &lt 6 SPACE           &kp SPACE           &kp ENTER               &mt LEFT_WIN TAB
             >;
         };
 
@@ -238,6 +238,15 @@
 &kp LCTRL                 &kp STAR      &kp LEFT                      &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp BACKSPACE    &mt LCTRL SEMICOLON
 &mt LEFT_SHIFT LA(RIGHT)  &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &kp SLASH
                                                                       &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER        &mkp RCLK        &mt F11 N0
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
