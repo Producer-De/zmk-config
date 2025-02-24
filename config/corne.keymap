@@ -172,9 +172,9 @@
         layer_4 {
             bindings = <
 &mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &mt LS(LA(LEFT_WIN)) O  &mt LC(LA(LEFT_WIN)) P  &mt LS(LC(LA(LEFT_WIN))) TAB
-&mt LCTRL RIGHT_ALT    &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &to 2                   &lt 2 BACKSPACE
-&mt LEFT_SHIFT DELETE  &lt 6 Z          &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &kp LEFT_ARROW          &kp DOWN                &kp RIGHT               &kp UP_ARROW
-                                                            &mkp MB2            &mkp MB1            &lt 1 SPACE           &kp SPACE           &kp ENTER               &kp LEFT_WIN
+&mt LCTRL RIGHT_ALT    &lt 5 A          &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &kp UP_ARROW            &lt 2 BACKSPACE
+&mt LEFT_SHIFT DELETE  &lt 4 Z          &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &to 2                   &kp LEFT_ARROW          &kp DOWN_ARROW          &kp RIGHT
+                                                            &mkp MB2            &mkp MB1            &lt 1 SPACE           &kp SPACE           &kp ENTER               &mt LEFT_WIN LA(TAB)
             >;
         };
 
@@ -186,19 +186,19 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&mt LCTRL ESCAPE          &kp TILDE     &kp APOSTROPHE                &kp UP_ARROW                &kp DOUBLE_QUOTES               &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &to 2            &to 0
-&kp LCTRL                 &kp STAR      &kp LEFT_ARROW                &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp BACKSPACE    &mt LCTRL SEMICOLON
-&mt LEFT_SHIFT LA(RIGHT)  &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &lt 2 SLASH
-                                                                      &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER        &mkp RCLK        &mt F11 N0
+&mt LEFT_ALT ESCAPE    &kp TILDE     &kp APOSTROPHE                &kp UP_ARROW                &kp DOUBLE_QUOTES               &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &trans           &trans
+&kp LCTRL              &kp STAR      &kp LEFT_ARROW                &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp DOT          &kp BACKSPACE
+&mt LEFT_SHIFT DELETE  &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &trans
+                                                                   &mkp MB2                    &mkp MB1                        &kp SPACE    &kp SPACE        &kp ENTER        &mt F11 N0
             >;
         };
 
         ABLETON {
             bindings = <
-&mkp MB3            &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))  &mkp RCLK     &to 0
-&mt LCTRL CAPSLOCK  &kp LC(A)     &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &mt H DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)      &kp UP_ARROW  &lt 4 LC(LA(P))
-&kp LEFT_SHIFT      &kp LC(Z)     &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &kp LC(COMMA)             &lt 3 LEFT     &kp DOWN      &lt 5 RIGHT
-                                                       &kp LEFT_ALT         &mkp LCLK                &kp SPACE              &kp ENTER            &mkp RCLK            &kp BACKSPACE
+&mkp MB3               &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))   &mkp RCLK     &kp TAB
+&mt LCTRL RIGHT_ALT    &kp LC(A)     &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &lt 3 DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)       &kp UP_ARROW  &lt 0 LC(LA(P))
+&mt LEFT_SHIFT DELETE  &kp LC(Z)     &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &to 0                     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+                                                          &mkp MB2             &mkp MB1                 &kp SPACE              &kp SPACE            &kp ENTER            &mt LEFT_WIN LA(TAB)
             >;
         };
 
@@ -210,10 +210,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&to 0       &to 1         &to 2         &bt BT_CLR_ALL  &bt BT_NXT    &ext_power EP_ON     &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
-&bt BT_PRV  &trans        &bt BT_SEL 0  &trans          &out OUT_TOG  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE       &kp C_VOL_DN     &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3  &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
-                                        &trans          &mkp LCLK     &trans               &trans           &mkp MB2         &trans
+&bt BT_CLR_ALL  &trans        &trans        &trans             &trans            &trans               &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF       &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
+&out OUT_BLE    &out OUT_USB  &out OUT_TOG  &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE       &kp C_VOL_DN          &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
+&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF       &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
+                                            &mkp MB2           &mkp MB1          &kp SPACE            &kp SPACE        &kp ENTER        &mt LEFT_WIN LA(TAB)
             >;
         };
 
@@ -229,15 +229,6 @@
 &mt LCTRL DEL             &kp A  &kp S  &kp D                    &kp F      &kp G        &kp H      &kp J      &kp K          &kp L    &kp RIGHT_ALT  &kp ENTER
 &mt LEFT_SHIFT LA(RIGHT)  &kp Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &kp CAPSLOCK   &kp DOT  &to 1          &mt RIGHT_SHIFT QUESTION
                                         &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
-            >;
-        };
-
-        layer_5 {
-            bindings = <
-&mt LCTRL ESCAPE          &kp TILDE     &kp APOS                      &kp UP_ARROW                &kp DOUBLE_QUOTES               &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &kp LC(A)        &kp LA(F4)
-&kp LCTRL                 &kp STAR      &kp LEFT                      &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp BACKSPACE    &mt LCTRL SEMICOLON
-&mt LEFT_SHIFT LA(RIGHT)  &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &kp SLASH
-                                                                      &mt LEFT_ALT LA(LEFT)       &mkp LCLK                       &kp SPACE    &kp ENTER        &mkp RCLK        &mt F11 N0
             >;
         };
 
