@@ -169,16 +169,16 @@
     keymap {
         compatible = "zmk,keymap";
 
-        layer_4 {
+        Main {
             bindings = <
 &mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &mt LS(LA(LEFT_WIN)) O  &mt LC(LA(LEFT_WIN)) P  &mt LS(LC(LA(LEFT_WIN))) TAB
-&mt LCTRL RIGHT_ALT    &lt 5 A          &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &kp UP_ARROW            &lt 2 BACKSPACE
-&mt LEFT_SHIFT DELETE  &lt 4 Z          &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &to 2                   &kp LEFT_ARROW          &kp DOWN_ARROW          &kp RIGHT
+&mt LCTRL RIGHT_ALT    &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &kp UP_ARROW            &lt 2 BACKSPACE
+&mt LEFT_SHIFT DELETE  &lt 3 Z          &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &to 2                   &kp LEFT_ARROW          &kp DOWN_ARROW          &kp RIGHT
                                                             &mkp MB2            &mkp MB1            &lt 1 SPACE           &kp SPACE           &kp ENTER               &mt LEFT_WIN LA(TAB)
             >;
         };
 
-        layer_below {
+        Sub {
             // -----------------------------------------------------------------------------------------
             // |      |  !  |  @  |  #  |  $  |    %     |   |  ^  |  &  |  *  |  (  |  )  |   \   |
             // |      |  1  |  2  |  3  |  4  |    5     |   |  -  |  =  |  `  |  [  |  ]  |  "|"  |
@@ -193,16 +193,16 @@
             >;
         };
 
-        ABLETON {
+        Ableton {
             bindings = <
 &mkp MB3               &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))   &mkp RCLK     &kp TAB
 &mt LCTRL RIGHT_ALT    &kp LC(A)     &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &lt 3 DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)       &kp UP_ARROW  &lt 0 LC(LA(P))
-&mt LEFT_SHIFT DELETE  &kp LC(Z)     &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &to 0                     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
-                                                          &mkp MB2             &mkp MB1                 &kp SPACE              &kp SPACE            &kp ENTER            &mt LEFT_WIN LA(TAB)
+&mt LEFT_SHIFT DELETE  &lt 3 LC(Z)   &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &to 0                     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+                                                          &mkp MB2             &mkp MB1                 &lt 1 SPACE            &kp SPACE            &kp ENTER            &mt LEFT_WIN LA(TAB)
             >;
         };
 
-        layer_above {
+        Setting {
             // -----------------------------------------------------------------------------------------
             // |  |  F1  |  F2  |  F3  |  F4  |  F5 |            |  F6  |  F7     |  F8     |  F9        |  F10     |     |
             // |  | Prev | Next | Vol - | Vol + | Play/Pause |   |      | LFT     | DWN     |  UP        |  RGT     |     |  HOME   |
@@ -210,34 +210,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&bt BT_CLR_ALL  &trans        &trans        &trans             &trans            &trans               &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF       &rgb_ug RGB_HUI  &rgb_ug RGB_HUD                   &rgb_ug RGB_SAI
-&out OUT_BLE    &out OUT_USB  &out OUT_TOG  &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE       &kp C_VOL_DN          &kp C_VOL_UP     &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
-&bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &rgb_ug RGB_EFF       &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
-                                            &mkp MB2           &mkp MB1          &kp SPACE            &kp SPACE        &kp ENTER        &mt LEFT_WIN LA(TAB)
-            >;
-        };
-
-        default_layer {
-            // -----------------------------------------------------------------------------------------
-            // | TAB  |  Q  |  W  |  E  |  R  |    T    |   |  Y  |  U   |  I  |  O  |  P  | ESC |
-            // | CTRL |  A  |  S  |  D  |  F  |    G    |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |    B    |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
-            //                    | GUI | RSE | ALT/ENT |   | BKSP | HYPER/SPC  | LWR |
-
-            bindings = <
-&mt LA(F4) ESCAPE         &kp Q  &kp W  &kp E                    &kp R      &kp T        &kp Y      &kp U      &kp I          &kp O    &kp P          &to 3
-&mt LCTRL DEL             &kp A  &kp S  &kp D                    &kp F      &kp G        &kp H      &kp J      &kp K          &kp L    &kp RIGHT_ALT  &kp ENTER
-&mt LEFT_SHIFT LA(RIGHT)  &kp Z  &kp X  &kp C                    &kp V      &kp B        &kp N      &kp M      &kp CAPSLOCK   &kp DOT  &to 1          &mt RIGHT_SHIFT QUESTION
-                                        &mt LALT LA(LEFT_ARROW)  &mkp LCLK  &kp SPACE    &kp SPACE  &mkp RCLK  &kp BACKSPACE
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &kp LS(LC(Q))  &kp LS(LA(W))  &kp LS(LG(E))  &kp LC(LA(R))  &kp LC(LG(T))    &kp LA(LG(Y))  &kp LS(LC(LA(U)))  &kp LS(LC(LG(I)))  &kp LS(LA(LG(O)))  &kp LC(LA(LG(P)))  &trans
-&trans  &trans         &trans         &trans         &trans         &trans           &trans         &trans             &trans             &trans             &trans             &trans
-&trans  &trans         &trans         &trans         &trans         &trans           &trans         &trans             &trans             &trans             &trans             &trans
-                                      &trans         &trans         &trans           &trans         &trans             &trans
+&trans        &kp LS(LC(Q))   &kp LS(LA(W))  &kp LS(LG(E))      &kp LC(LA(R))     &kp LC(LG(T))        &kp LA(LG(Y))    &kp LS(LC(LA(U)))  &kp LS(LC(LG(I)))     &kp LS(LA(LG(O)))  &kp LC(LA(LG(P)))                 &rgb_ug RGB_SAI
+&bt BT_CLR    &bt BT_CLR_ALL  &out OUT_TOG   &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE         &kp C_VOL_DN          &kp C_VOL_UP       &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
+&bt BT_SEL 0  &trans          &bt BT_SEL 1   &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD    &rgb_ug RGB_EFF       &rgb_ug RGB_EFR    &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
+                                             &mkp MB2           &mkp MB1          &kp SPACE            &kp SPACE        &kp ENTER          &mt LEFT_WIN LA(TAB)
             >;
         };
     };
