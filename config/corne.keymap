@@ -171,10 +171,10 @@
 
         layer_4 {
             bindings = <
-&mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &mt LS(LA(LEFT_WIN)) O  &mt LC(LA(LEFT_WIN)) P  &mt LS(LC(LA(LEFT_WIN))) A
-&mt LCTRL RIGHT_ALT    &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &mt LEFT_ALT RIGHT_ALT  &lt 5 BACKSPACE
-&mt LEFT_SHIFT DELETE  &kp Z            &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &mt CAPSLOCK LA(TAB)    &kp PERIOD              &to 1                   &mt RIGHT_SHIFT QUESTION
-                                                            &mkp MB2            &mkp MB1            &lt 6 SPACE           &kp SPACE           &kp ENTER               &mt LEFT_WIN TAB
+&mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &mt LS(LA(LEFT_WIN)) O  &mt LC(LA(LEFT_WIN)) P  &mt LS(LC(LA(LEFT_WIN))) TAB
+&mt LCTRL RIGHT_ALT    &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &to 2                   &lt 2 BACKSPACE
+&mt LEFT_SHIFT DELETE  &lt 6 Z          &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &kp LEFT_ARROW          &kp DOWN                &kp RIGHT               &kp UP_ARROW
+                                                            &mkp MB2            &mkp MB1            &lt 1 SPACE           &kp SPACE           &kp ENTER               &kp LEFT_WIN
             >;
         };
 
@@ -243,10 +243,10 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp LS(LC(Q))  &kp LS(LA(W))  &kp LS(LG(E))  &kp LC(LA(R))  &kp LC(LG(T))    &kp LA(LG(Y))  &kp LS(LC(LA(U)))  &kp LS(LC(LG(I)))  &kp LS(LA(LG(O)))  &kp LC(LA(LG(P)))  &trans
+&trans  &trans         &trans         &trans         &trans         &trans           &trans         &trans             &trans             &trans             &trans             &trans
+&trans  &trans         &trans         &trans         &trans         &trans           &trans         &trans             &trans             &trans             &trans             &trans
+                                      &trans         &trans         &trans           &trans         &trans             &trans
             >;
         };
     };
