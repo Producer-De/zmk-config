@@ -117,52 +117,47 @@
 
         ctrl1 {
             bindings = <&kp LC(NUMBER_1)>;
-            key-positions = <1 36>;
+            key-positions = <37 27>;
         };
 
         ctrl2 {
             bindings = <&kp LC(NUMBER_2)>;
-            key-positions = <2 36>;
+            key-positions = <37 28>;
         };
 
         ctrl3 {
             bindings = <&kp LC(NUMBER_3)>;
-            key-positions = <3 36>;
+            key-positions = <37 29>;
         };
 
         ctrl4 {
             bindings = <&kp LC(NUMBER_4)>;
-            key-positions = <4 36>;
+            key-positions = <37 15>;
         };
 
         ctrl5 {
             bindings = <&kp LC(N5)>;
-            key-positions = <5 36>;
+            key-positions = <37 16>;
         };
 
         ctrl6 {
             bindings = <&kp LC(NUMBER_6)>;
-            key-positions = <6 41>;
+            key-positions = <37 17>;
         };
 
         ctrl7 {
             bindings = <&kp LC(N7)>;
-            key-positions = <7 41>;
+            key-positions = <37 3>;
         };
 
         ctrl8 {
             bindings = <&kp LC(N8)>;
-            key-positions = <8 41>;
+            key-positions = <37 4>;
         };
 
         ctrl9 {
             bindings = <&kp LC(N9)>;
-            key-positions = <9 41>;
-        };
-
-        ctrl10 {
-            bindings = <&kp LC(F10)>;
-            key-positions = <10 41>;
+            key-positions = <37 5>;
         };
 
         underbar {
@@ -236,9 +231,9 @@
             //                     | GUI |     | ALT/ENT |   | BKSP | HYPER/SPACE |    |
 
             bindings = <
-&mt LEFT_ALT ESCAPE    &kp TILDE     &kp APOSTROPHE                &kp UP_ARROW                &kp DOUBLE_QUOTES               &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp PLUS   &trans           &trans
-&kp LCTRL              &kp STAR      &kp LEFT_ARROW                &kp DOWN                    &kp RIGHT                       &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp MINUS  &kp DOT          &kp BACKSPACE
-&mt LEFT_SHIFT DELETE  &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &kp DOT    &mt EQUAL COMMA  &trans
+&mt LEFT_ALT ESCAPE    &kp TILDE     &kp APOSTROPHE                &msc SCRL_UP                &kp DOUBLE_QUOTES               &kp F4       &mt F7 N7        &mt F8 N8        &mt F9 N9        &kp MINUS         &kp PLUS          &trans
+&kp LCTRL              &kp STAR      &msc SCRL_LEFT                &msc SCRL_DOWN              &msc SCRL_RIGHT                 &kp F5       &mt F4 NUMBER_4  &mt F5 N5        &mt F6 NUMBER_6  &kp PERIOD        &msc MOVE_Y(10)   &kp BACKSPACE
+&mt LEFT_SHIFT DELETE  &kp LEFT_WIN  &mt LC(LA(DELETE)) BACKSLASH  &mt LESS_THAN LEFT_BRACKET  &mt GREATER_THAN RIGHT_BRACKET  &kp F9       &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3  &msc MOVE_X(-10)  &msc MOVE_Y(-10)  &msc MOVE_X(10)
                                                                    &mkp MB2                    &mkp MB1                        &kp SPACE    &kp SPACE        &kp ENTER        &mt F11 N0
             >;
         };
