@@ -216,10 +216,10 @@
 
         Main {
             bindings = <
-&mt LEFT_ALT ESCAPE    &mt LS(LCTRL) Q  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y  &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I  &mt LS(LA(LEFT_WIN)) O  &mt LC(LA(LEFT_WIN)) P  &mt LS(LC(LA(LEFT_WIN))) TAB
-&mt LCTRL RIGHT_ALT    &kp A            &kp S               &kp D               &kp F               &kp G                 &kp H               &kp J                   &kp K                   &kp L                   &kp UP_ARROW            &lt 2 BACKSPACE
-&mt LEFT_SHIFT DELETE  &lt 3 Z          &kp X               &kp C               &kp V               &kp B                 &kp N               &kp M                   &to 2                   &kp LEFT_ARROW          &kp DOWN_ARROW          &kp RIGHT
-                                                            &mkp MB2            &mkp MB1            &lt 1 SPACE           &kp SPACE           &kp ENTER               &mt LEFT_WIN LA(TAB)
+&mt LEFT_ALT ESCAPE    &mt LS(LCTRL) LC(NUMBER_1)  &mt LS(LEFT_ALT) W  &mt LS(LEFT_WIN) E  &mt LC(LEFT_ALT) R  &mt LC(LEFT_WIN) T    &mt LA(LEFT_WIN) Y        &mt LS(LC(LEFT_ALT)) U  &mt LS(LC(LEFT_WIN)) I       &mt LS(LA(LEFT_WIN)) O       &mt LC(LA(LEFT_WIN)) P       &mt LA(LEFT_WIN) TAB
+&mt LCTRL RIGHT_ALT    &kp A                       &kp S               &kp D               &kp F               &kp G                 &kp H                     &kp J                   &kp K                        &kp L                        &lt 2 UP_ARROW               &mt LCTRL LEFT_WIN
+&mt LEFT_SHIFT DELETE  &lt 3 Z                     &kp X               &kp C               &kp V               &kp B                 &kp N                     &kp M                   &to 2                        &mt LC(LEFT_WIN) LEFT_ARROW  &mt LS(LEFT_WIN) DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW
+                                                                       &mkp MB2            &mkp MB1            &lt 1 SPACE           &mt LC(LEFT_SHIFT) SPACE  &mt LC(LEFT_ALT) ENTER  &mt LS(ALT_ERASE) BACKSPACE
             >;
         };
 
@@ -255,10 +255,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&trans        &kp LS(LC(Q))   &kp LS(LA(W))  &kp LS(LG(E))      &kp LC(LA(R))     &kp LC(LG(T))        &kp LA(LG(Y))    &kp LS(LC(LA(U)))  &kp LS(LC(LG(I)))     &kp LS(LA(LG(O)))  &kp LC(LA(LG(P)))                 &rgb_ug RGB_SAI
-&bt BT_CLR    &bt BT_CLR_ALL  &out OUT_TOG   &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE         &kp C_VOL_DN          &kp C_VOL_UP       &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
-&bt BT_SEL 0  &trans          &bt BT_SEL 1   &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD    &rgb_ug RGB_EFF       &rgb_ug RGB_EFR    &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
-                                             &mkp MB2           &mkp MB1          &kp SPACE            &kp SPACE        &kp ENTER          &mt LEFT_WIN LA(TAB)
+&trans        &mt LS(LCTRL) Q  &kp LS(LA(W))  &kp LS(LG(E))      &kp LC(LA(R))     &kp LC(LG(T))        &kp LA(LG(Y))    &kp LS(LC(LA(U)))  &kp LS(LC(LG(I)))     &kp LS(LA(LG(O)))  &kp LC(LA(LG(P)))                 &rgb_ug RGB_SAI
+&bt BT_CLR    &bt BT_CLR_ALL   &out OUT_TOG   &ext_power EP_TOG  &ext_power EP_ON  &ext_power EP_OFF    &rgb_ug RGB_SAD  &kp C_MUTE         &kp C_VOL_DN          &kp C_VOL_UP       &rgb_ug RGB_BRI                   &rgb_ug RGB_BRD
+&bt BT_SEL 0  &trans           &bt BT_SEL 1   &bt BT_SEL 2       &bt BT_SEL 3      &bt BT_SEL 4         &rgb_ug RGB_SPI  &rgb_ug RGB_SPD    &rgb_ug RGB_EFF       &rgb_ug RGB_EFR    &rgb_ug RGB_COLOR_HSB(241,0,100)  &rgb_ug RGB_COLOR_HSB(0,100,34)
+                                              &mkp MB2           &mkp MB1          &kp SPACE            &kp SPACE        &kp ENTER          &mt LEFT_WIN LA(TAB)
             >;
         };
     };
