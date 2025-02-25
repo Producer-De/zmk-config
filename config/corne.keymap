@@ -164,6 +164,56 @@
             bindings = <&kp LC(F10)>;
             key-positions = <10 41>;
         };
+
+        underbar {
+            bindings = <&kp UNDER>;
+            key-positions = <16 18>;
+        };
+
+        hypen {
+            bindings = <&kp MINUS>;
+            key-positions = <16 20>;
+        };
+
+        apostrophe {
+            bindings = <&kp SQT>;
+            key-positions = <16 20>;
+        };
+
+        doublequotes {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <16 21>;
+        };
+
+        questionmark {
+            bindings = <&kp QUESTION>;
+            key-positions = <16 22>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <16 23>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <16 35>;
+        };
+
+        period {
+            bindings = <&kp PERIOD>;
+            key-positions = <16 32>;
+        };
+
+        comma {
+            bindings = <&kp COMMA>;
+            key-positions = <16 33>;
+        };
+
+        altf4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <12 4>;
+        };
     };
 
     keymap {
