@@ -218,7 +218,7 @@
             bindings = <
 &mt LEFT_ALT ESCAPE    &kp Q    &kp W  &kp E     &kp R     &kp T          &kp Y                     &kp U                   &kp I                        &kp O                        &kp P                        &mt LA(LEFT_WIN) LEFT_WIN
 &mt LCTRL RIGHT_ALT    &kp A    &kp S  &kp D     &kp F     &kp G          &kp H                     &kp J                   &kp K                        &kp L                        &lt 2 UP_ARROW               &lt 2 LA(F4)
-&mt LEFT_SHIFT DELETE  &lt 1 Z  &kp X  &kp C     &kp V     &kp B          &kp N                     &kp M                   &to 2                        &mt LC(LEFT_WIN) LEFT_ARROW  &mt LS(LEFT_WIN) DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW
+&mt LEFT_SHIFT DELETE  &lt 4 Z  &kp X  &kp C     &kp V     &kp B          &kp N                     &kp M                   &to 2                        &mt LC(LEFT_WIN) LEFT_ARROW  &mt LS(LEFT_WIN) DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW
                                        &mkp MB2  &mkp MB1  &lt 1 SPACE    &mt LC(LEFT_SHIFT) SPACE  &mt LC(LEFT_ALT) ENTER  &mt LS(ALT_ERASE) BACKSPACE
             >;
         };
@@ -242,7 +242,7 @@
             bindings = <
 &mkp MB3               &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))   &mkp RCLK     &kp TAB
 &mt LCTRL RIGHT_ALT    &kp LC(A)     &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &lt 3 DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)       &kp UP_ARROW  &lt 0 LC(LA(P))
-&mt LEFT_SHIFT DELETE  &lt 3 LC(Z)   &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &to 0                     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+&mt LEFT_SHIFT DELETE  &lt 4 LC(Z)   &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &to 0                     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
                                                           &mkp MB2             &mkp MB1                 &lt 1 SPACE            &kp SPACE            &kp ENTER            &mt LEFT_WIN LA(TAB)
             >;
         };
@@ -264,10 +264,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &kp DOUBLE_QUOTES  &kp LC(N7)        &kp LC(N8)        &kp LC(N9)          &kp LESS_THAN  &kp GREATER_THAN  &trans            &trans             &trans        &trans
-&trans  &trans  &trans             &kp LC(NUMBER_4)  &kp LC(N5)        &kp LC(NUMBER_6)    &kp UNDER      &kp MINUS         &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp QUESTION  &kp COLON
-&trans  &trans  &trans             &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)    &trans         &trans            &kp DOT           &kp COMMA          &trans        &kp SLASH
-                                   &trans            &trans            &trans              &trans         &trans            &trans
+&trans  &trans  &trans  &kp LC(N7)        &kp LC(N8)        &kp LC(N9)          &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans        &trans
+&trans  &trans  &trans  &kp LC(NUMBER_4)  &kp LC(N5)        &kp LC(NUMBER_6)    &kp UNDER      &kp MINUS         &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp QUESTION  &kp COLON
+&trans  &trans  &trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)    &trans         &trans            &kp DOT           &kp COMMA          &trans        &kp SLASH
+                        &trans            &trans            &trans              &trans         &trans            &trans
             >;
         };
     };
