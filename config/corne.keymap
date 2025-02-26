@@ -216,10 +216,10 @@
 
         Main {
             bindings = <
-&mt LEFT_ALT ESCAPE    &kp Q    &kp W  &kp E     &kp R     &kp T          &kp Y                     &kp U                   &kp I                       &kp O                        &kp P                        &mt LA(LEFT_WIN) LEFT_WIN
-&mt LCTRL RIGHT_ALT    &kp A    &kp S  &kp D     &kp F     &kp G          &kp H                     &kp J                   &kp K                       &kp L                        &lt 2 UP_ARROW               &to 2
-&mt LEFT_SHIFT DELETE  &lt 4 Z  &kp X  &kp C     &kp V     &kp B          &kp N                     &kp M                   &to 2                       &mt LC(LEFT_WIN) LEFT_ARROW  &mt LS(LEFT_WIN) DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW
-                                       &mkp MB2  &mkp MB1  &lt 1 SPACE    &mt LC(LEFT_SHIFT) SPACE  &mt LC(LEFT_ALT) ENTER  &mt LS(LEFT_ALT) BACKSPACE
+&mt LEFT_ALT ESCAPE    &kp Q    &kp W  &kp E     &kp R     &kp T          &kp Y      &kp U                   &kp I               &kp O                        &kp P                        &mt LA(LEFT_WIN) LEFT_WIN
+&mt LCTRL RIGHT_ALT    &kp A    &kp S  &kp D     &kp F     &kp G          &kp H      &kp J                   &kp K               &kp L                        &lt 2 UP_ARROW               &kp LS(LEFT_ALT)
+&mt LEFT_SHIFT DELETE  &lt 4 Z  &kp X  &kp C     &kp V     &kp B          &kp N      &kp M                   &kp LC(LEFT_SHIFT)  &mt LC(LEFT_WIN) LEFT_ARROW  &mt LS(LEFT_WIN) DOWN_ARROW  &mt LEFT_SHIFT RIGHT_ARROW
+                                       &mkp MB2  &mkp MB1  &lt 1 SPACE    &kp SPACE  &mt LC(LEFT_ALT) ENTER  &kp BACKSPACE
             >;
         };
 
