@@ -240,7 +240,7 @@
 
         Ableton {
             bindings = <
-&mkp MB3               &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))   &mkp RCLK     &kp TAB
+&mkp MB3               &msc SCRL_UP  &mt W LC(LS(W))      &mt LC(LS(E)) LC(E)  &mt LC(LS(R)) LC(R)      &mt LC(LS(T)) LC(T)    &mt LC(Y) ESCAPE     &mt LC(LS(U)) LC(U)  &mt LC(LA(DELETE)) LC(I)  &kp LC(LA(O))   &kp CAPSLOCK  &kp TAB
 &mt LCTRL RIGHT_ALT    &kp LC(A)     &mt LC(LS(S)) LC(S)  &kp LC(D)            &mt LC(LS(LA(F))) LC(F)  &mt LC(LS(G)) LC(G)    &lt 3 DELETE         &kp LC(J)            &mt LC(K) ESCAPE          &kp LC(L)       &kp UP_ARROW  &lt 0 LC(LA(P))
 &mt LEFT_SHIFT DELETE  &lt 4 LC(Z)   &mt LC(LS(X)) LC(X)  &kp LC(C)            &kp LC(V)                &kp LC(LA(B))          &mt LC(LS(N)) LC(N)  &mt LC(LS(M)) LC(M)  &to 0                     &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
                                                           &mkp MB2             &mkp MB1                 &lt 1 SPACE            &kp SPACE            &kp ENTER            &mt LEFT_WIN LA(TAB)
